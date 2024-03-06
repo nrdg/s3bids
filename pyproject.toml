@@ -35,3 +35,7 @@ exclude = [".git_archival.txt"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["s3bids"]
+
+[tool.hatch.build]
+packages = ["s3bids"]
+
